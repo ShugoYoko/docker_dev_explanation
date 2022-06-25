@@ -92,19 +92,15 @@ src フォルダをDocker コンテナ内の home にマウントすることで
 
 ### サンプルを使った検証方法<br>
 #### 1) Docker Desktop を起動<br>
-<br>
 
 #### 2) git が導入されている場合、以下のコマンドを実行<br>
 git clone https://github.com/ShugoYoko/docker_dev.git<br>
-<br>
 
 #### 3) Visual studio code でdocker_devフォルダを開く<br>
-<br>
 
 #### 4) Reopen in Container でコンテナを開始<br>
 最初はコンテナを作成するので時間がかかる。
 ![reopen](./picture/reopen.JPG)<br>
-<br>
 
 #### 5) Visual Studio Code の Terminal から New Terminal を開き、コマンドを実行するとPython が導入されていること、test.py が実行できることを確認できる
 
