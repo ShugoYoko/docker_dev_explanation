@@ -119,6 +119,9 @@ git clone https://github.com/ShugoYoko/docker_dev.git<br>
 戻るときは”Reopen Folder Locally”を選択
 ![local](./picture/local.JPG)<br>
 
+## まとめ
+この方法はデータベースを準備する必要がある場合や、データベースを含んだ Web アプリを開発する場合も有効な方法である。今後も様々なタイプを検証していきたい。<br>
+
 
 
 
