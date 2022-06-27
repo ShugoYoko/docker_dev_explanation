@@ -21,7 +21,7 @@ Run and debug Python without installing a local Python environment.<br>
 1-1) Run PowerShell as an administrator and execute the following commands.<br>
 wsl --install<br>
 <br>
-1-2) After Ubuntu starts, set a username and password.<br>
+1-2) After Ubuntu starts, set a username and password. A reboot may be required during installation.<br>
 Note 1: If you run wsl --install and see WSL help text, run wsl --list --online to list available distributions, then run wsl --install -d DistroName to Install.<br>
 Note 2: Passwords are not displayed.<br>
 <br>
@@ -41,6 +41,8 @@ Example.wsl --set-version Ubuntu 2<br>
 Then check the version.<br>
 ![wsl2](./picture/wsl2.JPG) <br>
 <br>
+If you are using security software, curl and apt update may not work, so a proxy is needed.<br>
+
 
 #### 2) Install Windows Terminal (optional)
 Refer to the following sites.<br>

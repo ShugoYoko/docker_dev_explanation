@@ -21,7 +21,7 @@ Python の環境をローカルに導入することなく、実行、及びデ�
 1-1) PowerShellを管理者として実行し、以下のコマンドを実行<br>
 wsl --install<br>
 <br>
-1-2) Ubuntu が起動したらユーザ名とパスワードを設定<br>
+1-2) Ubuntu が起動したらユーザ名とパスワードを設定。インストール時に再起動を要求されることもある。<br>
 注意1: wsl --install を実行して WSL ヘルプ テキストが表示される場合は、wsl --list --online を実行して使用可能なディストリビューションの一覧を表示し、wsl --install -d DistroName を実行してディストリビューションをインストール。<br>
 注意2: パスワードは表示されない<br>
 <br>
@@ -40,6 +40,7 @@ wsl --set-version distro_name 2<br>
 その後バージョンを確認<br>
 ![wsl2](./picture/wsl2.JPG) <br>
 <br>
+*セキュリティーソフトを使用している場合、curl や apt update が使用出来ないことがあるため、Proxy が必要になるケースもある。<br>
 
 #### 2) Windows ターミナルをインストール(省略可)
 以下のサイトを参考<br>
